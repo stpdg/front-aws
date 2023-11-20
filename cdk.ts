@@ -11,7 +11,7 @@ const stack = new cdk.Stack(app, "ReactShopStackASdnlnlnl", {
 });
 
 const bucket = new s3.Bucket(stack, "ReactShopBucketDnlnnl", {
-  bucketName: "react-shop-redux-aws-course-tes-new-course-rsschool",
+  bucketName: "react-shop-redux-aws-course-tes-new-course-rsschool-test",
 });
 
 const originAccessIdentity = new cf.OriginAccessIdentity(
